@@ -1,13 +1,192 @@
-body {
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+/* Tailwind CSS base, components, and utilities */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+/*Обнуление*/
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+} 
+
+ .App {
+  background-color: #F2F4F5;
+  min-height: 100vh;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(242, 244, 245);
+    border: #002F34 2px solid;
+    border-bottom: 4px #002F34 solid;
+    border-right: 4px #002F34 solid;
+    border-radius: 5px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-size: 20px;
+}
+
+.input::placeholder {
+    font-size: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    font-size: 16px;
+    margin: 30px 0 20px 0;
+    color: rgb(0, 47, 52);
+}
+
+.relative {
+    position: relative;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #002F34;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #002F34;
+    border-right: 4px solid #002F34;
+    border-bottom: 4px solid #002F34;
+    padding: 10px 15px;
+    transition: all .5s ease;
+}
+
+.button:hover {
+    background-color: white;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.loyout {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 750px) {
+    .loyout {
+        margin: 0 auto 50px auto;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .button {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .input {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.loader {
+  width: 45px;
+  aspect-ratio: 1;
+  --c: no-repeat linear-gradient(#000 calc(50% - 10px),#0000 0 calc(50% + 10px),#000 0);
+  background: 
+    var(--c) 0%   100%,
+    var(--c) 50%  100%,
+    var(--c) 100% 100%;
+  background-size: 20% calc(200% + 20px);
+  animation:l4 1s infinite linear;
+}
+@keyframes l4 {
+    33%  {background-position: 0% 50%,50% 100%,100% 100%}
+    50%  {background-position: 0%  0%,50%  50%,100% 100%}
+    66%  {background-position: 0%  0%,50%   0%,100%  50%}
+    100% {background-position: 0%  0%,50%   0%,100%   0%}
 }

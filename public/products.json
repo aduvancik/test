@@ -1,0 +1,80 @@
+[
+    {
+      "id": 1,
+      "title": "Сіамський кіт",
+      "price": 1200,
+      "description": "Сіамський  кіт є однією з найвідоміших і найстаріших порід  кішок у світі. Ці граційні та витончені тварини відомі своєю короткою шерстю, яка надає їм елегантного вигляду, і виразними блакитними очима, що зачаровують з першого погляду. Сіамські  коти мають характерне забарвлення з темними відмітинами на вухах, мордочці, лапах та хвості, яке контрастує з основним кольором шерсті. Вони є дуже товариськими й активними улюбленцями, які швидко прив’язуються до своїх господарів і потребують багато уваги та спілкування. Сіамські  коти відрізняються не тільки своєю красою, але й надзвичайно розвиненим інтелектом, що робить їх чудовими компаньйонами для людей різного віку.",
+      "telephone": "0663904077",
+      "contactPerson": "Oleg",
+      "category": "cat",
+      "photos": ["https://digirl.com.ua/wp-content/uploads/2024/05/1-27.jpg","https://kotomaniya.com.ua/wp-content/uploads/2021/01/siamskaya-1024x819-min.jpg"],
+      "createdAt": "13 червня"
+    },
+    {
+      "id": 2,
+      "title": "Британський кіт",
+      "price": 1500,
+      "description": "Британський кіт з густою шерстю, любить гратися.",
+      "telephone": "0663904078",
+      "contactPerson": "Anna",
+      "category": "cat",
+      "photos": ["https://united-by-love.club4paws.com/wp-content/uploads/2021/07/britanskaya_korotkosherstnaya_koshka_opisanie_porody.jpg","https://avatars.dzeninfra.ru/get-zen_doc/9366213/pub_6474dde92980e21841e5ec09_6474de512980e21841e6a444/scale_1200"],
+      "createdAt": "14 червня"
+    },
+    {
+      "id": 3,
+      "title": "Собака лабрадор",
+      "price": 2000,
+      "description": "Лабрадор ретривер, дружелюбний і енергійний.",
+      "telephone": "0663904079",
+      "contactPerson": "Ivan",
+      "category": "dog",
+      "photos": ["https://zoobonus.ua/storage/breeds/images/big/LHTLohLii9G2wvBzFeTEhvVYZqwFbOuZmaJmDp1R.jpg"],
+      "createdAt": "15 червня"
+    },
+    {
+      "id": 4,
+      "title": "Попугай ара",
+      "price": 2500,
+      "description": "Попугай ара, дуже розумний і легко піддається навчання.",
+      "telephone": "0663904080",
+      "contactPerson": "Nina",
+      "category": "bird",
+      "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ara_macao_-_two_at_Lowry_Park_Zoo.jpg/886px-Ara_macao_-_two_at_Lowry_Park_Zoo.jpg?20121231065608","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPhPnSa1OF-uXccBM8m9JpW4z_OzLrYMN5w&s"],
+      "createdAt": "16 червня"
+    },
+    {
+      "id": 5,
+      "title": "Золота рибка",
+      "price": 300,
+      "description": "Золота рибка, ідеально підходить для акваріума.",
+      "telephone": "0663904081",
+      "contactPerson": "Alex",
+      "category": "fish",
+      "photos": ["https://content.e-zoo.com.ua/img/uploads/blog/statya-159_8.jpg"],
+      "createdAt": "17 червня"
+    },
+    {
+      "id": 6,
+      "title": "Хом'як сирійський",
+      "price": 100,
+      "description": "Сирійський хом'як, ідеальний перший вихованець для дітей.",
+      "telephone": "0663904082",
+      "contactPerson": "Svetlana",
+      "category": "rodents",
+      "photos": ["https://korm.com.ua/images/companies/1/blog/29.12.2017/korm.com.ua_pictures_28_12_17/2_3.jpg?1514546383542"],
+      "createdAt": "18 червня"
+    },
+    {
+      "id": 7,
+      "title": "Ігуана зелена",
+      "price": 3000,
+      "description": "Зелена ігуана, потребує великого тераріуму.",
+      "telephone": "0663904083",
+      "contactPerson": "Dmitry",
+      "category": "reptiles",
+      "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Iguana_iguana_Fern_Forest.JPG/2560px-Iguana_iguana_Fern_Forest.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/AA_Iguana_Fot_Ars_Summum.JPG/1280px-AA_Iguana_Fot_Ars_Summum.JPG"],
+      "createdAt": "19 червня"
+    }
+  ]
+  
