@@ -2,7 +2,7 @@
 
 <h2>🚀 Demo</h2>
 
-<!-- []() -->
+[https://test-mji3gvj7m-olegs-projects-3dd9d15b.vercel.app/](https://test-mji3gvj7m-olegs-projects-3dd9d15b.vercel.app/)
 
 
 <h2>🧐 about project</h2>

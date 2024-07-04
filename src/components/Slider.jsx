@@ -20,7 +20,7 @@ export default function Slidere({ listPhotoSrc }) {
   const keys = useMemo(() => listPhotoSrc.map((_, index) => index), [listPhotoSrc]);
 
   return (
-    <div className="slider__container w-2/3 mx-auto bg-white p-2">
+    <div className="slider__container w-full md:w-2/3 mx-auto bg-white p-2">
       <div className="navigation-wrapper relative">
         <div key={`${keys[0]}${keys.length}`} ref={sliderRef} className="keen-slider">
           {listPhotoSrc.map((src, index) => (
