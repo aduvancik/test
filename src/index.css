@@ -1,5 +1,3 @@
-@import "react-alice-carousel/lib/alice-carousel.css";
-
 /* Tailwind CSS base, components, and utilities */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
