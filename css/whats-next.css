@@ -1,0 +1,15 @@
+.whats-next__container-books {
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  margin: 40px auto 0 auto;
+}
+
+.writer__text {
+  margin: 40px 0 30px 0;
+  font-style: italic;
+}
+
+.writer__email {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,45 @@
+.custom-button {
+  background-color: #C87B7C;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #b36768;
+}
+
+.contact-form {
+  gap: 10px;
+  max-width: 366px;
+  width: 100%;
+  margin: 30px auto 0 auto;
+}
+
+.contact-form__button {
+  background-color: rgba(200, 123, 124, 1);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  height: 44px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+
+}
+
+.contact-form__button:hover {
+  background-color: #b36768;
+}
+
+.contact-form input {
+  height: 44px;
+  background: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+}

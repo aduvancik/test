@@ -1,0 +1,18 @@
+@import url('./reset.css');
+@import url('./layout.css');
+@import url('./typography.css');
+@import url('./buttons&forms.css');
+
+@import url('./intro.css');
+@import url('./bsw-description.css');
+@import url('./region-availability.css');
+@import url('./whats-next.css');
+@import url('./keep-in-touch.css');
+@import url('./magazine.css');
+@import url('./anthology.css');
+@import url('./overview.css');
+@import url('./stats.css');
+@import url('./footer.css');
+
+@import url('./media.css');
+@import url('./animate.css');

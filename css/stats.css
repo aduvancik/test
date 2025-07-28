@@ -1,0 +1,7 @@
+.stats-grid {
+  row-gap: 50px;
+}
+
+.stat-item {
+  margin-bottom: 0 !important;
+}

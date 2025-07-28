@@ -1,0 +1,27 @@
+.magazine {
+  margin: 0 auto;
+  max-width: 537px;
+}
+
+.magazine__title {
+  margin-bottom: 40px;
+}
+
+.magazine__text-contact {
+  margin: 40px 0;
+}
+
+.email {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
+
+.magazine__container-img {
+  max-width: 400px;
+  padding: 35px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 0 auto;
+}

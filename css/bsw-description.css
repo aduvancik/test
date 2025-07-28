@@ -1,0 +1,28 @@
+.bsw-description {
+  margin-top: 117px;
+}
+
+.bsw-description .container {
+  gap: 40px;
+}
+
+.bsw-description img {
+  width: 433px;
+  height: 413px;
+}
+
+.bsw-description__text {
+  max-width: 682px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+  white-space: pre-line;
+}
+
+.bsw-description__readMore {
+  display: block;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+}

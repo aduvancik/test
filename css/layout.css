@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  color: #fff;
+  background: linear-gradient(to top, #262A4C, #729698);
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1169px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-block {
+  max-width: 1179px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.small-container {
+  gap: 120px;
+  max-width: 727px;
+  margin: 120px auto 137px auto;
+}
+
+header {
+  padding: 27px 30px;
+}

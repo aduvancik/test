@@ -1,0 +1,58 @@
+@media (max-width: 1165px) {
+  .introSectionBook {
+    gap: 30px;
+  }
+
+  .introSectionBook .book {
+    height: 569px;
+  }
+
+  .carousel-control-next {
+    margin-right: -30px;
+  }
+
+  .carousel-control-prev {
+    margin-left: -30px;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+  .region-availability {
+    margin-top: 40px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .bsw-description h2 {
+    margin-bottom: 20px;
+  }
+
+  .small-container {
+    gap: 50px;
+    margin-top: 50px;
+  }
+}
+
+
+@media (max-width: 780px) {
+  .whats-next img {
+    max-width: 45%;
+  }
+
+  .grid-item.two-photos {
+    max-width: 100%;
+    gap: 2px;
+  }
+
+  .grid-item.two-photos img {
+    max-width: 40%;
+  }
+}

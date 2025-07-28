@@ -1,0 +1,10 @@
+.bsw-overview h2 {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 74px;
+}
+
+.bsw-overview p {
+  font-size: 24px;
+  font-weight: 400;
+}
