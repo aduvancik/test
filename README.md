@@ -4,7 +4,7 @@
 
 <h2>🚀 Demo</h2>
 
-[https://bws.infy.uk/?i=2)
+https://bws.infy.uk/?i=2
 
 <h2>Project Screenshots:</h2>
 
