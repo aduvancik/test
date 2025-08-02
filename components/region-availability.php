@@ -41,7 +41,7 @@ $photoGroups = [
 
   <div class="row g-3">
     <?php foreach ($photoGroups as $group): ?>
-      <div class="col-6 d-flex justify-content-center">
+      <div class="col-12 col-sm-6 d-flex justify-content-center">
         <a href="<?= htmlspecialchars($group['link']) ?>" class="grid-item <?= count($group['images']) === 2 ? 'two-photos' : 'single-photo' ?>" target="_blank" rel="noopener noreferrer">
           <?php foreach ($group['images'] as $photo): ?>
             <img src="/test/assets/images/region-availability/<?= htmlspecialchars($photo) ?>" alt="Photo" />

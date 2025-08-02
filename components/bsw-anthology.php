@@ -1,54 +1,21 @@
 <?php
+$imageBasePath = '/test/assets/images/slider/';
+
 $carouselSlides = [
-  [
-    'image' => '/test/assets/images/slider/slide-1.jpg',
-    'type' => 'NON Fiction',
-    'title' => 'An Albino Raven in the Museum of Soviet Values',
-    'author' => 'Story by Viktoriia Antonenko',
-    'illustrator' => 'Illustrated by Iryna Lysenko'
-  ],
-  [
-    'image' => '/test/assets/images/slider/slide-2.jpg',
-    'type' => 'NON Fiction',
-    'title' => 'An Albino Raven in the Museum of Soviet Values',
-    'author' => 'Story by Viktoriia Antonenko',
-    'illustrator' => 'Illustrated by Iryna Lysenko'
-  ],
-  [
-    'image' => '/test/assets/images/slider/slide-3.jpg',
-    'type' => 'NON Fiction',
-    'title' => 'An Albino Raven in the Museum of Soviet Values',
-    'author' => 'Story by Viktoriia Antonenko',
-    'illustrator' => 'Illustrated by Iryna Lysenko'
-  ],
-  [
-    'image' => '/test/assets/images/slider/slide-4.jpg',
-    'type' => 'NON Fiction',
-    'title' => 'An Albino Raven in the Museum of Soviet Values',
-    'author' => 'Story by Viktoriia Antonenko',
-    'illustrator' => 'Illustrated by Iryna Lysenko'
-  ],
-  [
-    'image' => '/test/assets/images/slider/slide-5.jpg',
-    'type' => 'NON Fiction',
-    'title' => 'An Albino Raven in the Museum of Soviet Values',
-    'author' => 'Story by Viktoriia Antonenko',
-    'illustrator' => 'Illustrated by Iryna Lysenko'
-  ],
-  [
-    'image' => '/test/assets/images/slider/slide-6.jpg',
-    'type' => 'NON Fiction',
-    'title' => 'An Albino Raven in the Museum of Soviet Values',
-    'author' => 'Story by Viktoriia Antonenko',
-    'illustrator' => 'Illustrated by Iryna Lysenko'
-  ],
-  [
-    'image' => '/test/assets/images/slider/slide-7.jpg',
-    'type' => 'NON Fiction',
-    'title' => 'An Albino Raven in the Museum of Soviet Values',
-    'author' => 'Story by Viktoriia Antonenko',
-    'illustrator' => 'Illustrated by Iryna Lysenko'
-  ],
+  'slide-1.jpg',
+  'slide-2.jpg',
+  'slide-3.jpg',
+  'slide-4.jpg',
+  'slide-5.jpg',
+  'slide-6.jpg',
+  'slide-7.jpg',
+];
+
+$commonSlideData = [
+  'type' => 'NON Fiction',
+  'title' => 'An Albino Raven in the Museum of Soviet Values',
+  'author' => 'Story by Viktoriia Antonenko',
+  'illustrator' => 'Illustrated by Iryna Lysenko'
 ];
 ?>
 
@@ -58,14 +25,14 @@ $carouselSlides = [
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <!-- Слайди -->
       <div class="carousel-inner">
-        <?php foreach ($carouselSlides as $index => $slide): ?>
+        <?php foreach ($carouselSlides as $index => $filename): ?>
           <div class="carousel-item <?= $index === 0 ? 'active' : '' ?>" data-bs-interval="5000">
-            <div class="bsw-anthology__clide d-flex align-items-center">
-              <img src="<?= $slide['image'] ?>" class="d-block w-50" alt="Slide image">
+            <div class="bsw-anthology__clide d-flex flex-column flex-md-row align-items-center">
+              <img src="<?= $imageBasePath . $filename ?>" class="d-block w-7 md:w-50" alt="Slide image">
               <div class="bsw-anthology__text">
-                <p><?= $slide['type'] ?></p>
-                <h3><?= $slide['title'] ?></h3>
-                <p><?= $slide['author'] ?><br><?= $slide['illustrator'] ?></p>
+                <p><?= $commonSlideData['type'] ?></p>
+                <h3><?= $commonSlideData['title'] ?></h3>
+                <p><?= $commonSlideData['author'] ?><br><?= $commonSlideData['illustrator'] ?></p>
               </div>
             </div>
           </div>
@@ -81,15 +48,16 @@ $carouselSlides = [
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+
       <!-- Пагінація -->
       <div class="carousel-indicators">
-        <?php foreach ($carouselSlides as $index => $slide): ?>
+        <?php foreach ($carouselSlides as $index => $filename): ?>
           <button type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="<?= $index ?>"
-            class="<?= $index === 0 ? 'active' : '' ?>"
-            aria-current="<?= $index === 0 ? 'true' : 'false' ?>"
-            aria-label="Slide <?= $index + 1 ?>"></button>
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="<?= $index ?>"
+                  class="<?= $index === 0 ? 'active' : '' ?>"
+                  aria-current="<?= $index === 0 ? 'true' : 'false' ?>"
+                  aria-label="Slide <?= $index + 1 ?>"></button>
         <?php endforeach; ?>
       </div>
     </div>
